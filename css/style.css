@@ -213,6 +213,7 @@ header #my-navigation .collapse li a:hover{
     height: 10rem;
     background-color: #a4c639;
     color: #fff;
+    padding-bottom: 3rem;
 }
 
 .full-width-banner h3{
@@ -788,6 +789,10 @@ footer .last-item button{
         margin: 0;
         padding: 0;
         margin: 0 auto;
+    }
+
+    .full-width-banner button{
+        margin-top: 0.5rem;
     }
     
 }
