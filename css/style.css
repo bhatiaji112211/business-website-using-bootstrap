@@ -125,7 +125,7 @@ header #my-navigation .collapse li a:hover{
 	border-radius: 0px;
 	position: absolute;
     right: 0;
-	top: 10px;
+	top: 5px;
     display: none;
 }
 
@@ -768,4 +768,26 @@ footer .last-item button{
     .sub-footer p{
         font-size: 0.5rem;
     }
+}
+
+@media (max-width:480px){
+    .carousel .item{
+        text-align: center;
+    }
+
+    .carousel .item h3{
+        font-size: 0.9rem;
+        margin-top: 5rem;
+    }
+
+    .carousel .item h1{
+        font-size: 1.5rem;
+    }
+
+    .carousel .item p{
+        margin: 0;
+        padding: 0;
+        margin: 0 auto;
+    }
+    
 }
