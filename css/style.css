@@ -1,0 +1,722 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins' , sans-serif;
+}
+
+html {
+  font-size: 15px;
+}
+
+
+/* sub header starts */
+.sub-header {
+  width: 100%;
+  height: 3rem;
+  background-color: #a4c639;
+}
+
+.sub-header .row ul {
+  list-style: none;
+}
+
+.sub-header .row .left-info {
+  text-align: left;
+}
+
+.sub-header .row .left-info li {
+  float: left;
+  margin-right: 1rem;
+  font-size: 1.2rem;
+  margin-top: 0.5rem;
+}
+
+.sub-header .row .left-info li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.sub-header .row .left-info li a:hover{
+    color: #dbdbdb;
+}
+
+.sub-header .row .left-info li a .fa{
+    font-size: 1.5rem;
+}
+.sub-header .row .right-icons {
+  text-align: right;
+}
+
+.sub-header .row .right-icons li {
+  float: right;
+  margin-left: 2rem;
+}
+
+.sub-header .row .right-icons li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.sub-header .row .right-icons li a .fa{
+    font-size: 1.5rem;
+    margin-top: 0.6rem;
+}
+
+.sub-header .row .right-icons li a:hover{
+    color: #dbdbdb;
+}
+/* sub header ends */
+
+
+
+/* navigation starts */
+header{
+    width: 100%;
+}
+
+header #my-navigation{
+    background: none;
+    width: 85%;
+    border: none;
+    position: absolute;
+    z-index: 10;
+}
+
+header #my-navigation .icon-bar{
+    background-color: #fff;
+    border-color: #a4c639;
+}
+
+header #mu-navigation .icon-bar{
+    margin: 0;
+    padding: 0;
+    background: none;
+    border: 1px solid #fff;
+}
+
+header #my-navigation .navbar-brand h2{
+    color: #fff;
+    font-size: 2rem;
+    margin: 0;
+}
+
+header #my-navigation .collapse li a{
+    color: #fff;
+    font-size: 1rem;
+}
+
+header #my-navigation .collapse li a:hover{
+    color: #a4c639;
+    text-decoration: underline;
+}
+
+
+/* navigation ends */
+
+
+/* carousel starts */
+.carousel .item{
+    background-image: url(../img/slide_01.jpg);
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+}
+
+
+.carousel .item-2{
+    background-image: url(../img/slide_02.jpg);
+}
+
+.carousel .item-3{
+    background-image: url(../img/slide_03.jpg);
+}
+
+.carousel .item h3{
+    font-size: 1.5rem;
+    margin-top: 8rem;
+    color: #a4c639;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin-left: 0.9rem;
+}
+
+.carousel .item h1{
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 600;
+    margin-left: 0.9rem;
+}
+
+.carousel .item p{
+    font-size: 0.8rem;
+    color: #dfdfdf;
+    width: 45%;
+    letter-spacing: 0.1rem;
+    line-height: 2rem;
+    margin-left: 0.9rem;
+}
+
+.my-btn{
+    width: 10rem;
+    height: 3rem;
+    background-color: #a4c639;
+    border: 0;
+    color: #fff;
+    border-radius: 30px;
+    margin-left: 0.9rem;
+    margin-top: 5rem;
+}
+
+.my-btn:hover{
+    width: 9.5rem;
+    height: 2.8rem;
+    background-color: #add827;
+    color: #f7f7f7;
+    transition: 0.2s all;
+}
+
+.carousel-indicators{
+    display: none;
+}
+/* carousel ends */
+
+
+/* banner starts */
+.full-width-banner{
+    width: 100%;
+    height: 10rem;
+    background-color: #a4c639;
+    color: #fff;
+}
+
+.full-width-banner h3{
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-top: 3.3rem;
+    margin-bottom: 1rem;
+    word-spacing: 0.1rem;
+    letter-spacing: 0.05rem;
+}
+
+.full-width-banner p{
+    font-size: 0.9rem;
+    font-weight: 400;
+    word-spacing: 0.1rem;
+    letter-spacing: 0.05rem;
+}
+
+.full-width-banner button{
+    float: right;
+    margin-top: 3.3rem;
+}
+
+.my-btn-2{
+    width: 10rem;
+    height: 3rem;
+    border: 2px solid #fff;
+    background: none;
+    color: #fff;
+    border-radius: 30px;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.my-btn-2:hover{
+    width: 9.5rem;
+    height: 2.8rem;
+    border: 2px solid gray;
+    color: gray;
+    transition: 0.2s all;
+}
+/* banner ends */
+
+
+/* financial services starts */
+.financial{
+    padding: 7rem 0;
+}
+
+.financial  h3{
+    font-size: 2rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #000;
+}
+
+.financial  h3 span{
+    color: #a4c639;
+}
+
+.financial  p{
+    font-size: 1rem;
+    font-weight: 200;
+    text-align: center;
+    margin-bottom: 3rem;
+    color: gray;
+}
+
+.financial .service-item h4{
+    font-size: 1.1rem;
+    font-weight: 700;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.financial .service-item p{
+    font-size: 0.90rem;
+    font-weight: 300;
+    text-align: left;
+    padding-top: 0.7rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    color: gray;
+    word-spacing: 0.1rem;
+    margin-bottom: 0;
+}
+
+.financial .service-item button{
+    width: 9rem;
+    margin-top: 1.6rem;
+    margin-left: 1.9rem;
+}
+/* financial servics ends */
+
+
+/* more info starts*/
+.more-info{
+    background-color: #f7f7f7;
+}
+.more-info .left-image img{
+    width: 100%;
+}
+.more-info .right-content{
+    height: 34.19rem;
+    padding-top: 3rem;
+    padding-left: 2.5rem;
+}
+
+.more-info .right-content span{
+    color: gray;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+}
+
+.more-info .right-content h2{
+    font-size: 2.5rem;
+    font-weight: 600;
+    padding-right: 2rem;
+}
+
+.more-info .right-content h2 em{
+    color: #a4c639;
+}
+
+.more-info .right-content p{
+    font-size: 1rem;
+    padding-right: 4rem;
+    line-height: 2rem;
+}
+
+.more-info .right-content button{
+    width: 9rem;
+    margin-top: 1.5rem;
+}
+/* more info ends */
+
+/* testimonial starts */
+.testimonial{
+    width: 100%;
+    margin: 8rem 0;
+    padding: 15rem 0;
+    background-color: #f7f7f7;
+}
+
+.section-heading{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.section-heading h2{
+    font-size: 2.5rem;
+    font-weight: 600;
+    color: #000;
+}
+
+.section-heading h2 em{
+    color: #a4c639;
+}
+
+.section-heading span{
+    font-size: 1.2rem;
+    font-weight: 300;
+    color: gray;
+}
+
+.testimonial .inner-content{
+    background-color:#fff;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 2rem;
+}
+
+.testimonial .inner-content img{
+    width: 40%;
+    margin-bottom: 1.5rem;
+}
+
+.testimonial .inner-content  h4{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #000;
+}
+
+.testimonial .inner-content span{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #a4c639;
+}
+
+.testimonial .inner-content p{
+    font-size: 0.8rem;
+    padding: 1rem 3rem;
+    color: gray;
+}
+/* testimonial ends */
+
+/* request form starts */
+.request-form{
+    height: 70vh;
+    padding: 5rem 4rem;
+    background-color: #a4c639;
+}
+
+.request-form .name{
+    background-color: #fff;
+    color: #dbdbdb;
+    border-radius: 55px;
+}
+
+.request-form .text{
+    background-color: #fff;
+    color: #dbdbdb;
+    border-radius: 20px;
+}
+
+.request-form .text::placeholder{
+    padding-top: 15px;
+}
+/* request form ends */
+
+/* footer starts */
+footer{
+    width: 100%;
+    background-color: #232323;
+    color: #fff;
+    padding: 5rem 0;
+}
+
+footer .footer-item h4{
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+
+footer .footer-item p{
+    font-size: 0.8rem;
+    padding-right: 2rem;
+    line-height: 1.5rem;
+}
+
+footer .footer-item ul{
+    list-style: none;
+    margin-top: 1rem;
+}
+
+footer .footer-item .social-icons li{
+    float: left;
+    margin-right: 1.2rem;
+}
+
+footer .footer-item .social-icons li .fa{
+    width: 2rem;
+    height: 2rem;
+    font-size: 1rem;
+    background-color: #fff;
+    color: #000;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 6px;
+}
+
+footer .footer-item .menu-list li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 0.8rem;
+    font-weight: 300;
+    margin-top: 1.5rem;
+}
+
+footer .last-item input{
+    background-color: #343434;
+    border-radius: 50px;
+    margin-bottom: 1rem;
+    border: 0;
+}
+
+footer .last-item textarea{
+    background-color: #343434;
+    border-radius: 15px;
+    border: 0;
+}
+
+footer .last-item textarea::placeholder{
+    padding-top: 4px;
+    padding-left: 5px;
+}
+
+footer .last-item button{
+    width: 8rem;
+    height: 2.5rem;
+    margin-top: 0;
+    background-color: #a4c639;
+    color: #fff;
+    border: 0;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    margin-top: 1.5rem;
+}
+/* footer ends */
+
+/* subfooter starts */
+.sub-footer{
+    width: 100%;
+    background-color: #343434;
+    color: #fff;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.sub-footer p{
+    font-size: 0.7rem;
+}
+
+.sub-footer p a{
+    color: #fff;
+}
+
+.sub-footer p a:hover{
+    color: #a4c639;
+}
+/* sub footer ends */
+
+
+/* media query starts */
+@media (max-width:992px){
+    .sub-header{
+        display: none;
+    }
+
+    header #my-navigation .navbar-brand h2{
+        font-size: 1.3rem;
+    }
+
+    header #my-navigation .collapse li a{
+        font-size: 0.7rem;
+    }
+
+    .carousel .item h3{
+        font-size: 1.1rem;
+        margin-top: 3rem;
+    }
+
+    .carousel .item h1{
+        font-size: 2.2rem;
+    }
+
+    .carousel .item p{
+        font-size: 0.8rem;
+        line-height: 1rem;
+    }
+
+    .carousel .item button{
+        margin-top: 0.5rem;
+
+    }
+
+    .full-width-banner h3{
+        font-size: 1rem;
+        margin-top: 1.5rem;
+        margin-bottom: 0.8rem;
+        text-align: center;
+    }
+
+    .full-width-banner p{
+        font-size: 0.7rem;
+        text-align: center;
+    }
+
+    .full-width-banner button{
+        float: none;
+        margin-top: 1rem;
+    }
+
+    .financial h3{
+        font-size: 1.5rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .financial p{
+        font-size: 0.8rem;
+        margin-bottom: 2rem;
+    }
+
+    .financial .service-item h4{
+        font-size: 1rem;
+        padding-top: 1rem;
+    }
+
+    .financial .service-item p{
+        padding: 0 10rem;
+    }
+
+    .financial .service-item button{
+        margin-top: 1rem;
+        margin-left: 0;
+        margin-bottom: 2rem;
+    }
+
+    .more-info .left-image img{
+        width: 60%;
+    }
+
+    .more-info .right-content span{
+        font-size: 1rem;
+    }
+
+    .more-info .right-content h2{
+        font-size: 1.5rem;
+        padding-right: 0;
+    }
+
+    .more-info .right-content p{
+        font-size: 0.8rem;
+        padding: 0 10rem;
+        line-height: 1.3rem;
+    }
+
+    .more-info .right-content button{
+        margin-top: 1rem;
+    }
+
+    .section-heading h2{
+        font-size: 1.5rem;
+    }
+
+    .section-heading span{
+        font-size: 0.8rem;
+    }
+
+    .testimonial{
+        padding: 8rem 0;
+    }
+
+    .testimonial .inner-content img{
+        width: 30%;
+    }
+
+    .testimonial .inner-content  h4{
+        font-size: 0.8;
+    }
+
+    .testimonial .inner-content  span{
+        font-size: 0.5;
+    }
+
+    .testimonial .inner-content  p{
+        padding: 0 10rem;
+        margin-bottom: 1rem;
+    }
+
+    .request-form{
+        height: 100vh;
+        padding: 2rem 3rem;
+    }
+
+    footer .footer-item h4{
+        clear: both;
+    }
+
+    footer .footer-item .social-icons li .fa{
+        width: inherit;
+        height: inherit;
+        color: #fff;
+        border-radius: 0;
+        background: none;
+        display: inherit;
+        padding-top: 0;
+        padding-bottom: 1rem;
+    }
+
+    .request-form .name{
+        margin-bottom: 1rem;
+    }
+
+    footer .footer-item p{
+        padding-right: 20rem;
+    }
+
+    footer .last-item input{
+        width: 70%;
+    }
+
+    footer .last-item textarea{
+        width: 70%;
+    }
+}
+@media (max-width:576px){
+    .financial .service-item p{
+        padding: 0 4.5rem;
+    }
+
+    .more-info .right-content p{
+        padding: 0 4rem;
+    }
+
+    .testimonial .inner-content p{
+        padding: 0 4rem;
+    }
+
+    footer .footer-item h4{
+        font-size: 0.9rem;
+        margin-bottom: 1rem;
+    }
+
+    footer .footer-item p{
+        font-size: 0.6rem;
+    }
+
+    footer .footer-item .social-icons li .fa{
+        font-size: 0.6rem;
+    }
+
+    footer .footer-item .menu-list li a{
+        font-size: 0.6rem;
+    }
+
+    footer .last-item button{
+        width: 7rem;
+        height: 2rem;
+        font-size: 0.6rem;
+    }
+
+    .sub-footer p{
+        font-size: 0.5rem;
+    }
+}
